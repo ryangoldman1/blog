@@ -69,10 +69,10 @@ _Be mindful that CloudWatch currently allows only one subscription per log group
 
 ## 3. Sentry
 
-[Sentry](https://sentri.io) is a **real-time error tracking** service.
+[Sentry](https://sentry.io) is a **real-time error tracking** service.
 
 With Sentry, developers get notified instantly when errors occur in live environments. This is crucial for reacting quickly and ensuring customer sadisfaction.
-Along with every report, sentry gathers stack-traces for faster and better debugging.
+Along with every report, Sentry gathers stack traces for faster and better debugging.
 
 Sentry also analyzes the impact of each release, so it's easy to later see which release introduced which bugs.
 
@@ -80,7 +80,8 @@ Sentry also analyzes the impact of each release, so it's easy to later see which
 - real-time error reporting
 - version statistics
 - implementation required
-- event based pricing, has freemium
+- open source
+- hosted starting at $26/mo, has freemium
 
 ## 4. Offline Serverless plugins
 Serverless has a lot of useful plugins to test code locally before deploying to a remote environment. This helps developers save time of unnecessary deploys.
